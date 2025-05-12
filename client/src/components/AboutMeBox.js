@@ -64,12 +64,12 @@ const AboutMeBox = () => (
         YouTube
       </a>
       <a
-        href="mailto:anushap6571@gmail.com"
+        href="https://open.spotify.com/user/0040qq6f6qq8826s4mfj1vuso?si=8af8969f4e4548f4"
         target="_blank"
         rel="noopener noreferrer"
-        className="w-[120px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-white hover:text-black transition font-sans"
+        className="w-[120px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-spotifyGreen hover:text-black transition font-sans"
       >
-        Email
+        Spotify
       </a>
     </div>
   </div>

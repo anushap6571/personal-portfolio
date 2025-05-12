@@ -15,7 +15,8 @@ module.exports = {
         ramenDark: "#2C3A3A",
         youtubeRed: "#FF0000",
         instaPink: "#e1306c",
-        beliBlue: "#305462"
+        beliBlue: "#305462",
+        spotifyGreen: "#1DB954"
       },
       fontFamily: {
         sans: ["Montserrat", "ui-sans-serif", "system-ui"],
