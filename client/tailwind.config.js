@@ -13,6 +13,9 @@ module.exports = {
         ramenOrange: "#E9A178",
         ramenPink: "#F6D6D6",
         ramenDark: "#2C3A3A",
+        youtubeRed: "#FF0000",
+        instaPink: "#e1306c",
+        beliBlue: "#305462"
       },
       fontFamily: {
         sans: ["Montserrat", "ui-sans-serif", "system-ui"],

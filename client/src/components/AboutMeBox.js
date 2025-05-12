@@ -19,15 +19,15 @@ const AboutMeBox = () => (
     >
       Anusha Patel
     </h2>
-    <p className="text-white/90 mb-4 text-left z-10 font-sans">
+    <p className="text-white/90 mb-4 text-left z-10 font-sans ">
       Computer science student at UTD passionate about design, code, and creative technology.
     </p>
-    <div className="flex space-x-4 z-10">
+    <div className="grid grid-cols-3 gap-2 w-full z-10 mt-2 justify-items-center">
       <a
         href="https://www.linkedin.com/in/anushapatel6571/"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-ramenDark text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-blue-600 transition font-sans"
+        className="w-[120px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-blue-600 transition font-sans"
       >
         LinkedIn
       </a>
@@ -35,9 +35,41 @@ const AboutMeBox = () => (
         href="https://github.com/anushap6571"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-ramenDark text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-gray-900 transition font-sans"
+        className="w-[120px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-gray-900 transition font-sans"
       >
         GitHub
+      </a>
+      <a
+        href="https://www.instagram.com/anushaa__patel/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-[120px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-instaPink transition font-sans"
+      >
+        Instagram
+      </a>
+      <a
+        href="https://beliapp.co/app/anushaa__patel"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-[120px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-beliBlue transition font-sans"
+      >
+        Beli
+      </a>
+      <a
+        href="https://www.youtube.com/@anushapatel2176"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-[120px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-youtubeRed transition font-sans"
+      >
+        YouTube
+      </a>
+      <a
+        href="mailto:anushap6571@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-[120px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-white hover:text-black transition font-sans"
+      >
+        Email
       </a>
     </div>
   </div>
