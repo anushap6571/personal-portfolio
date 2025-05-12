@@ -22,12 +22,12 @@ const AboutMeBox = () => (
     <p className="text-white/90 mb-4 text-left z-10 font-sans ">
       Computer science student at UTD passionate about design, code, and creative technology.
     </p>
-    <div className="grid grid-cols-3 gap-2 w-full z-10 mt-2 justify-items-center">
+    <div className="flex flex-wrap gap-2 w-full z-10 mt-2 justify-center">
       <a
         href="https://www.linkedin.com/in/anushapatel6571/"
         target="_blank"
         rel="noopener noreferrer"
-        className="w-[120px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-blue-600 transition font-sans"
+        className="flex-1 min-w-[120px] max-w-[180px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-blue-600 transition font-sans"
       >
         LinkedIn
       </a>
@@ -35,7 +35,7 @@ const AboutMeBox = () => (
         href="https://github.com/anushap6571"
         target="_blank"
         rel="noopener noreferrer"
-        className="w-[120px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-gray-900 transition font-sans"
+        className="flex-1 min-w-[120px] max-w-[180px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-gray-900 transition font-sans"
       >
         GitHub
       </a>
@@ -43,7 +43,7 @@ const AboutMeBox = () => (
         href="https://www.instagram.com/anushaa__patel/"
         target="_blank"
         rel="noopener noreferrer"
-        className="w-[120px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-instaPink transition font-sans"
+        className="flex-1 min-w-[120px] max-w-[180px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-instaPink transition font-sans"
       >
         Instagram
       </a>
@@ -51,7 +51,7 @@ const AboutMeBox = () => (
         href="https://beliapp.co/app/anushaa__patel"
         target="_blank"
         rel="noopener noreferrer"
-        className="w-[120px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-beliBlue transition font-sans"
+        className="flex-1 min-w-[120px] max-w-[180px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-beliBlue transition font-sans"
       >
         Beli
       </a>
@@ -59,7 +59,7 @@ const AboutMeBox = () => (
         href="https://www.youtube.com/@anushapatel2176"
         target="_blank"
         rel="noopener noreferrer"
-        className="w-[120px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-youtubeRed transition font-sans"
+        className="flex-1 min-w-[120px] max-w-[180px] text-center bg-ramenDark text-white px-4 py-2 rounded-full font-semibold shadow hover:bg-youtubeRed transition font-sans"
       >
         YouTube
       </a>
