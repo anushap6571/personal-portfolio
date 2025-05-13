@@ -8,7 +8,7 @@ const WorkingOnBox = () => (
     <h3 className="text-lg font-semibold text-white mb-2 z-10">Currently Working On</h3>
     <ul className="text-white/90 list-disc pl-5 z-10">
       <li>backend for elys</li>
-      <li>enterprise architect intern @stellantis</li>
+      <li>enterprise architect intern @stellantis fs</li>
       <li>this website</li>
     </ul>
   </div>

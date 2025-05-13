@@ -1,14 +1,22 @@
 import React from "react";
 
 const Navbar = () => (
-  <nav className="w-full flex justify-between items-center px-8 py-4 bg-[#49543B] text-[#F6EBDD] fixed top-0 z-50">
-    <div className="font-bold text-xl tracking-wider">Anusha Patel</div>
-    <div className="space-x-8 hidden md:flex">
-      <a href="#about" className="hover:text-[#F6A800] transition">About me</a>
-      <a href="#resume" className="hover:text-[#F6A800] transition">Resume</a>
-      <a href="#work" className="hover:text-[#F6A800] transition">Work</a>
+  <nav className="w-full flex flex-col items-center pt-4 pb-2 bg-transparent fixed top-0 z-50">
+    {/* Top Row: Logo and Name */}
+    <div className="flex w-full items-center justify-between px-8">
+      {/* Logo placeholder */}
+      <div className="w-12 h-12 rounded-full bg-white/30 backdrop-blur-lg border border-white/40 flex items-center justify-center shadow-md mr-4">
+        {/* You can put your logo SVG or image here */}
+        <span className="text-2xl font-bold text-white">🦋</span>
+      </div>
     </div>
-    <a href="#contact" className="bg-[#F6A800] text-[#181818] px-4 py-2 rounded-full font-semibold hover:bg-[#F47C20] transition">Get in touch!</a>
+    {/* Navigation Buttons */}
+    <div className="flex gap-4 mt-4">
+      <a href="#about" className="px-6 py-2 rounded-full bg-white/20 backdrop-blur-lg border border-white/30 text-white font-semibold shadow hover:bg-white/40 transition-all">About Me</a>
+      <a href="#resume" className="px-6 py-2 rounded-full bg-white/20 backdrop-blur-lg border border-white/30 text-white font-semibold shadow hover:bg-white/40 transition-all">Resume</a>
+      <a href="#work" className="px-6 py-2 rounded-full bg-white/20 backdrop-blur-lg border border-white/30 text-white font-semibold shadow hover:bg-white/40 transition-all">Work</a>
+      <a href="#contact" className="px-6 py-2 rounded-full bg-white/20 backdrop-blur-lg border border-white/30 text-white font-semibold shadow hover:bg-white/40 transition-all">Contact</a>
+    </div>
   </nav>
 );
 
