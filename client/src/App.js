@@ -8,7 +8,7 @@ function App() {
     <div className="bg-[#23272F] min-h-screen">
       {/* <GlowingTrail /> */}
       <img src={backgroundImage} alt="Background" className="absolute inset-0 w-full h-full object-cover" />
-      {/* <Navbar /> */}
+      {/* <Navbar /> */} // Navbar is currently disabled
       <MainGrid />
     </div>
   );
